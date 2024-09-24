@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!--2 puntos si se han usado las diferentes formas de diferir la carga y  ejecución del código js en diferentes momentos de la carga del HTML-->
+    <script async src="JS/js1.js"></script>
+</head>
+<body>
+   <h1 id="puntoD">Hola Mundo</h1>
+
+   <!--2 Ptos si se ha incluido JS utilizando código en el propio documento HTML.-->
+   <script>
+        console.log('Hola que tal estas gabin');
+        document.write("<p>Jesusus cristo</p>");
+   </script>
+   
+    <h1> Un texto cualquiera</h1>
+    
+   <h1>Hasta luego</h1>
+
+   <!--2 Ptos si se ha incluido JS utilizando código en un documento js externo (ruta relativa)-->
+   <script src="JS/js2.js"></script>
+</body>
+</html>
